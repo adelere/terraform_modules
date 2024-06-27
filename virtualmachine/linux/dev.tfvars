@@ -1,0 +1,17 @@
+resource_group_name             = "rg-clng-dev-ceaz-cus-002"
+location                        = "Central US"
+vm_name                         = "CNDLCLNGCUS001"
+username                        = "linux"
+password                        = "123$AVG7YU"
+subnet                          = "/subscriptions/9a84aa6f-97f-f42602d7ae80/resourceGroups/rg-clng-dev-ceaz-cus-001/providers/Microsoft.Network/virtualNetworks/vnet-clng-dev-ceaz-cus-001/subnets/snet-clng-dev-ceaz-cus-008" #example
+vnet                            = "/subscriptions/9a84aa6f-97f-96c7-f42602d7ae80/resourceGroups/rg-clng-dev-ceaz-cus-001/providers/Microsoft.Network/virtualNetworks/vnet-clng-dev-ceaz-cus-001" #example
+vm_net                          = "linux_vm_net"
+nic_name                        = "vm_net"
+storage_account_type            = "Standard_LRS"
+ip_config_name                  = "internal"
+private_ip_address_allocation   = "Dynamic"
+size                            = "Standard_F2"
+caching                         = "ReadWrite"
+publisher                       = "PCSDevopsTeam"
+offer                           = "UbuntuServer"
+sku                             = "ubuntu1804-g2"

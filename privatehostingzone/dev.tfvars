@@ -1,0 +1,12 @@
+resource_group_name = "example-resources"
+location            = "East US"
+virtual_network_name = "example_network"
+virtual_network_address_space = ["10.0.0.0/16"]
+service_subnet_address_prefixes = ["10.0.1.0/24"]
+endpoint_subnet_address_prefixes = ["10.0.2.0/24"]
+public_ip_allocation_method = "Static"
+lb_sku = "Basic"
+private_endpoint_name = "example_endpoint"
+link_service_name = "example_service"
+lb_name = "example_lb"
+public_ip_name = "example_pip"

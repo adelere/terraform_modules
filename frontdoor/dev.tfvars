@@ -1,0 +1,14 @@
+resource_group_name         = "devresourcegroup"
+location                    = "East US"
+frontdoor_name              = "example-FrontDoor"
+routing_rule_name           = "exampleRoutingRule1"
+accepted_protocols          = ["Http", "Https"]
+patterns_to_match           = ["/*"]
+frontend_endpoint_name      = "exampleFrontendEndpoint1"
+frontend_endpoint_host_name = "example-FrontDoor.azurefd.net"
+backend_pool_name           = "exampleBackendBing"
+backend_host_header         = "www.bing.com"
+backend_address             = "www.bing.com"
+backend_http_port           = 80
+backend_https_port          = 443
+forwarding_protocol         = "MatchRequest"
