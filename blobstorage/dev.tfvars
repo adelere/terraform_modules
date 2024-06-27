@@ -1,0 +1,11 @@
+resource_group_name     = "example-resource-group"
+resource_group_location = "eastus"
+
+storage_account_name   = "examplestorageaccount"
+storage_container_name = "example-container"
+blob_name              = "fiserv-blob"
+account_tier           = "Standard"
+replication_type       = "LRS"
+container_access_type  = "private"
+blob_source            = "some-local-file.zip"
+blob_storage_type      = "Block"
